@@ -3,7 +3,7 @@
 <span>Chatbox</span>
 </h1>
 <p align="center">
-    <em>Your Ultimate AI Copilot on the Desktop. <br />Chatbox is a desktop client for multiple cutting-edge LLM models, available on Windows, Mac, Linux</em>
+    <em>Your Ultimate AI Copilot on the Desktop. <br />Chatbox is a desktop client for ChatGPT, Claude and other LLMs, available on Windows, Mac, Linux</em>
 </p>
 
 <p align="center">
@@ -24,47 +24,46 @@
 </a>
 </p>
 
-<table>
-<tr>
-<td>
-<img src='./doc/snapshot2.png' />
-</td>
-<td>
-<img src='./doc/snapshot4.png' />
-</td>
-</tr>
-</table>
+## ⏬ Download
 
-## Download
-
-<table>
+<table style="width: 100%">
   <tr>
-    <td style="text-align:center"><b>Windows</b></td>
-    <td colspan="2" style="text-align:center"><b>MacOS</b></td>
-    <td style="text-align:center"><b>Linux</b></td>
+    <td width="25%" align="center">
+      <b>Windows</b>
+    </td>
+    <td width="25%" align="center" colspan="2">
+      <b>MacOS</b>
+    </td>
+    <td width="25%" align="center">
+      <b>Linux</b>
+    </td>
   </tr>
   <tr style="text-align: center">
-    <td>
+    <td align="center" valign="middle">
       <a href='https://chatboxai.app/?c=download-windows'>
-        <img src='./doc/windows.png' style="height:14px; width: 14px" />
+        <img src='./doc/windows.png' style="height:24px; width: 24px" />
+        <br />
         <b>Setup.exe</b>
       </a>
     </td>
-    <td>
+    <td align="center" valign="middle">
       <a href='https://chatboxai.app/?c=download-mac-intel'>
-        <img src='./doc/mac.png' style="height:15px; width: 15px" />
+        <img src='./doc/mac.png' style="height:24px; width: 24px" />
+        <br />
         <b>Intel</b>
       </a>
     </td>
-    <td>
+    <td align="center" valign="middle">
       <a href='https://chatboxai.app/?c=download-mac-aarch'>
-        <img src='./doc/mac.png' style="height:15px; width: 15px" />
+        <img src='./doc/mac.png' style="height:24px; width: 24px" />
+        <br />
         <b>M1/M2</b>
       </a>
     </td>
-    <td>
+    <td align="center" valign="middle">
       <a href='https://chatboxai.app/?c=download-linux'>
-        <img src='./doc/linux.png' style="height:14px; width: 14px" />
+        <img src='./doc/linux.png' style="height:24px; width: 24px" />
+        <br />
         <b>AppImage</b>
       </a>
     </td>
@@ -73,11 +72,37 @@
 
 Visit the **[GitHub Releases](https://github.com/Bin-Huang/chatbox/releases)** to download the latest version or any previous release.
 
-## Features
+## 🌟 Features
 
--   Enhanced prompting capability
+<a href="https://www.producthunt.com/posts/chatbox?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatbox" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=429547&theme=light" alt="Chatbox - Better&#0032;UI&#0032;&#0038;&#0032;Desktop&#0032;App&#0032;for&#0032;ChatGPT&#0044;&#0032;Claude&#0032;and&#0032;other&#0032;LLMs&#0046; | Product Hunt" style="width: 200px; height: 40px;" width="100" height="40" /></a>
+
+<img src="./dec/../doc/demo_desktop_1.jpg" alt="App Screenshot" style="box-shadow: 2px 2px 10px rgba(0,0,0,0.1); border: 1px solid #ddd; border-radius: 8px; width: 700px" />
+
+<img src="./dec/../doc/demo_desktop_2.jpg" alt="App Screenshot" style="box-shadow: 2px 2px 10px rgba(0,0,0,0.1); border: 1px solid #ddd; border-radius: 8px; width: 700px" />
+
+<img src="./dec/../doc/demo_desktop_3.jpg" alt="App Screenshot" style="box-shadow: 2px 2px 10px rgba(0,0,0,0.1); border: 1px solid #ddd; border-radius: 8px; width: 700px" />
+
+<!-- <table>
+<tr>
+<td>
+<img src="./dec/../doc/demo_mobile_1.png" alt="App Screenshot" style="box-shadow: 2px 2px 10px rgba(0,0,0,0.1); border: 1px solid #ddd; border-radius: 8px; height: 300px" />
+</td>
+<td>
+<img src="./dec/../doc/demo_mobile_2.png" alt="App Screenshot" style="box-shadow: 2px 2px 10px rgba(0,0,0,0.1); border: 1px solid #ddd; border-radius: 8px; height: 300px" />
+</td>
+</tr>
+</table> -->
+
 -   Data is stored locally and will not be lost
--   Supports multiple cutting-edge LLM models and providers, such as OpenAI, Azure OpenAI and ChatGLM-6B
+-   Supports multiple cutting-edge LLM models and providers
+    -   OpenAI (ChatGPT)
+    -   Azure OpenAI
+    -   Claude
+    -   Google Gemini Pro
+    -   Ollama (enabling easy access to locally deployed models such as llama2, Mistral, Mixtral, codellama, vicuna, yi, and solar)
+    -   ChatGLM-6B
+-   Supports Dall-E-3, real-time image generation
+-   Enhanced prompting capability
 -   Keyboard shortcuts for improved productivity
 -   Markdown & Code Highlighting
 -   Prompt Library, Message Quoting
@@ -85,17 +110,23 @@ Visit the **[GitHub Releases](https://github.com/Bin-Huang/chatbox/releases)** t
 -   Ergonomic UI design & Night Mode
 -   Suitable for team collaboration, supporting the sharing of OpenAI API resources within the team. View [tutorial](./team-sharing/README.md)
 -   Providing installation packages, no deployment required
--   Free and open source
+-   Cross-platform, available on Windows, Mac, Linux
+-   Web version, available on any device with a browser
+-   iOS & Android version, coming soon
+-   Multilingual Support
+    -   English
+    -   简体中文
+    -   繁體中文
+    -   日本語
+    -   한국어
+    -   Français
+    -   Deutsch
+    -   Русский
+-   More...
 
 ## FAQ
 
 -   [Frequently Asked Questions](./FAQ.md)
-
-## Chatbox Team Sharing Feature
-
-Using AI to enhance your team productivity, is an important feature of Chatbox.
-
-Chatbox allows your team members to share the resources of the same OpenAI API account without exposing your API KEY. View [tutorial](./team-sharing/README.md).
 
 ## Why I made Chatbox?
 
@@ -128,12 +159,17 @@ At first, I didn't know that it would be so popular. I listened to the feedback 
 -   [x] Claude
 -   [x] Temperature Setting
 -   [x] Conversation Special Settings
--   [x] Custom Model
+-   [x] OpenAI Custom Model
+-   [x] Dall-E-3
+-   [x] Message Search
+-   [x] Data Export
+-   [x] Support for Google Gemini Pro
+-   [x] Support for Ollama (llama2, Mistral, Mixtral, codellama, vicuna, yi, and solar)
+-   [x] Thread archive, history message list
+-   [x] Mobile (Android, iOS)
 -   [ ] Talk with files
 -   [ ] Talk with URLs
--   [ ] Mobile(Android, iOS)
 -   [ ] Cross-device synchronization
--   [ ] threads(like Slack)
 -   More...
 
 ## How to Contribute
@@ -147,6 +183,26 @@ Any form of contribution is welcome, including but not limited to:
 -   Submitting documentation revisions
 -   Submitting translations
 -   Submitting any other forms of contribution
+
+## Build Instructions for Chatboxai (Mac, Windows, Linux)
+
+1. Clone the repository from Github using the following command:
+
+```bash
+git clone https://github.com/Bin-Huang/chatbox.git
+```
+
+2. Install the required dependencies by running the following command:
+
+```bash
+npm install
+```
+
+3. Start the application by running the following command:
+
+```bash
+npm start
+```
 
 ## Buy Me a Coffee
 
